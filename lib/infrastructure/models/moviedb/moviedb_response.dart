@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 import 'dart:convert';
 
-import 'package:cinemapedia/infrastructure/models/moviedb/movieMoviedb.dart';
+import 'package:cinemapedia/infrastructure/models/moviedb/movie_moviedb.dart';
 
 MovieDbResponse movieDbResponseFromJson(String str) =>
     MovieDbResponse.fromJson(json.decode(str));

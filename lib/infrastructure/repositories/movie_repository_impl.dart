@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
-import 'package:cinemapedia/domain/datasources/moviesDatasource.dart';
+import 'package:cinemapedia/domain/datasources/movies_datasource.dart';
 import 'package:cinemapedia/domain/entities/movie.dart';
-import 'package:cinemapedia/domain/repositories/moviesRepository.dart';
+import 'package:cinemapedia/domain/repositories/movies_repository.dart';
 
 class MovieRepositoryImpl extends MoviesRepository {
   final MoviesDatasource datasource;

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'package:cinemapedia/domain/entities/movie.dart';
-import 'package:cinemapedia/src/providers/movies/moviesProviders.dart';
+import 'package:cinemapedia/src/providers/movies/movies_providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final moviesSlideShowProvider = Provider<List<Movie>>((ref){

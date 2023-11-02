@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 import 'package:cinemapedia/config/constans/environment.dart';
-import 'package:cinemapedia/domain/datasources/moviesDatasource.dart';
+import 'package:cinemapedia/domain/datasources/movies_datasource.dart';
 import 'package:cinemapedia/domain/entities/movie.dart';
-import 'package:cinemapedia/infrastructure/mappers/movieMapper.dart';
-import 'package:cinemapedia/infrastructure/models/moviedb/moviedbResponse.dart';
+import 'package:cinemapedia/infrastructure/mappers/movie_mapper.dart';
+import 'package:cinemapedia/infrastructure/models/moviedb/moviedb_response.dart';
 import 'package:dio/dio.dart';
 
 class MoviedbDatasource extends MoviesDatasource {

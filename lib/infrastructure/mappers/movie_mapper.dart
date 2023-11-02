@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 import 'package:cinemapedia/domain/entities/movie.dart';
-import 'package:cinemapedia/infrastructure/models/moviedb/movieMoviedb.dart';
+import 'package:cinemapedia/infrastructure/models/moviedb/movie_moviedb.dart';
 
 class MovieMapper {
   static Movie movieDbToEntity(MovieMoviedb moviedb) => Movie(
