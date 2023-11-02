@@ -1,4 +1,4 @@
-import 'package:cinemapedia/config/router/appRouter.dart';
+import 'package:cinemapedia/config/router/app_router.dart';
 import 'package:cinemapedia/config/theme/appTheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
