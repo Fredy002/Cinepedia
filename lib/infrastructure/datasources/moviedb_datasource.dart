@@ -1,4 +1,3 @@
-// ignore_for_file: file_names
 import 'package:cinemapedia/config/constans/environment.dart';
 import 'package:cinemapedia/domain/datasources/movies_datasource.dart';
 import 'package:cinemapedia/domain/entities/movie.dart';

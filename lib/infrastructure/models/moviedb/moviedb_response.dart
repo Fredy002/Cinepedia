@@ -1,4 +1,3 @@
-// ignore_for_file: file_names
 import 'dart:convert';
 
 import 'package:cinemapedia/infrastructure/models/moviedb/movie_moviedb.dart';
